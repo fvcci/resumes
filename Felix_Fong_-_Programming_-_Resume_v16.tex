@@ -1,0 +1,269 @@
+%-------------------------
+% Resume in Latex
+% Author : Felix Fong
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.9in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \small#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeDatedList}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        #1 & #2 \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeListItem}[1]{
+    \vspace{-2pt}\item#1
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeListStart}{\begin{itemize}[itemindent=-0.33in,leftmargin=0.48in, label={}]}
+\newcommand{\resumeListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Felix Fong} \\ \vspace{5pt}
+    \small 416-268-0291 $|$
+    felixfong58@gmail.com $|$
+    \href{https://linkedin.com/in/felixfong58}{\underline{linkedin.com/in/felixfong58}} $|$
+    \href{https://github.com/fvcci}{\underline{github.com/fvcci}} \\ \vspace{5pt}
+    Enthusiastic Web Developer with proficiency in project management, web design, competitive programming, and educating.
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+        {\href{https://deltahacks.com/}{\underline{Deltahacks}}}{November 2022 -- Present}
+        {Technical Executive}{Hamilton, ON}
+        \resumeItemListStart
+            \resumeItem{Developed the schedule page for Deltahacks, fetching from google calendar's ics url for real-time hackathon events essential to \textbf{1000+} participants.}
+            \resumeItem{Designed the landing page with React and Tailwind, leveraging ViteJS and Typescript for streamlined development.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {McMaster Competitive Programming Club}{August 2022 -- Present}
+        {Vice President of Training}{Hamilton, ON}
+        \resumeItemListStart
+            \resumeItem{Formulated advanced data structures and algorithms learning material in anticipation for the \textbf{International Collegiate Programming Contest} (ICPC).}
+            \resumeItem{Directed live coding problems with concise explanations.}
+            \resumeItem{Hosted an Intel sponsored competition with \textbf{\$150} in prize money and \textbf{35} participants.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {McMaster Department of Computing and Software}{May 2022 - August 2022}
+        {Research Assistant}{Hamilton, ON}
+        \resumeItemListStart
+            \resumeItem{Facilitated with implementing the \textbf{ChaCha20-Poly1305} encryption algorithm using \textbf{low level instructions}.}
+            \resumeItem{Conceptualized a graphing tool to fit \textbf{600} data points to probability distributions using \textbf{scipy} and \textbf{numpy}.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {McMaster Start Coding}{September 2021 -- August 2022}
+        {Web Developer}{Hamilton, ON}
+        \resumeItemListStart
+            \resumeItem{Enhanced user experience on the McMaster Start Coding website and attracted \textbf{100+} new users.}
+            \resumeItem{Optimized the ELM based website to reduce Google Lighthouse’s Speed Index by \textbf{86\%}.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Bur Oak Secondary School}{November 2020 -- June 2021}
+        {Executive and Data Structures and Algorithms Instructor}{Markham, ON}
+        \resumeItemListStart
+            \resumeItem{Spearheaded instructing a class of \textbf{60} students grades \textbf{9-12}.}
+            \resumeItem{Designed class material in preparation for the \textbf{Canadian Computing Competition} (CCC).}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Longtech Computer Distributor}{September 2019 -- July 2020}
+        {Co-operative Education Student}{Markham, ON}
+        \resumeItemListStart
+            \resumeItem{Collaborated alongside the return merchandise manager to resolve customer complaints \textbf{56\%} more efficiently.}
+            \resumeItem{Catalogued products on \textbf{Microsoft Excel} based on category and size to streamline future shipments.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+            {\href{https://github.com/fvcci/Path-Finding-Sandbox}{\textbf{\underline{Path Finding Sandbox}}} $|$ \emph{Typescript, ReactJS, ViteJS, JSX, CSS}}{August 2022 -- Present}
+            \resumeItemListStart
+                \resumeItem{Codeveloped an aesthetic and highly interactive \textbf{graph theory} path finding algorithm visualization tool.}
+                \resumeItem{Designed to be exceptionally interactive with visually appealing animations and intuitive customization options.}
+            \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %     {Google Hashcode $|$ \emph{Python}}{Feburary 2022}
+        %     \resumeItemListStart
+        %         \resumeItem{Competed in the annual \textbf{Google Hashcode Challenge}.}
+        %         \resumeItem{Placed \textbf{3230th}, within the top \textbf{33\%} of all global participants.}
+        %     \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %     {\href{https://github.com/SnoogySocks/Ani-List_Felix_Fong}{\textbf{\underline{Ani-List}}} $|$ \emph{Java, Java Swing, Unirest, Apache Maven}}{July 2021}
+        %     \resumeItemListStart
+        %         \resumeItem{Designed a social cataloging application for users to score and organize their anime preferences, incorporating \textbf{object-oriented programming} and the \textbf{MVC architecture}.}
+        %         \resumeItem{Developed the \textbf{Apache Maven POM file} in order to automate the project building process.}
+        %         \resumeItem{Implemented \textbf{Unirest} to make \textbf{HTTP REST requests} to the Jikan API for real-time information on anime.}
+        %     \resumeItemListEnd
+
+        % \resumeProjectHeading
+        %     {\href{https://github.com/SnoogySocks/Data_Mining_Project}{\textbf{\underline{Data Mining Project}}} $|$ \emph{Java, Java Swing}}{May 2021}
+        %     \resumeItemListStart
+        %         \resumeItem{Processed and organized over \textbf{119 000} cells of data from Open Markham Database to analyze patterns about infrastructure in York Region.}
+        %         \resumeItem{Designed components on the client-side with the \textbf{JFreeChart library} and the \textbf{Java Swing Framework}.}
+        %     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+    \resumeListStart\small{
+        \resumeListItem{\textbf{Languages}:
+            Typescript, Elm, HTML, CSS, C/C++, Python, Java, Haskell, SQL (MySQL, SQLite), XML, \LaTeX
+        } \\
+        \resumeListItem{\textbf{Libraries and Frameworks}:
+            ReactJS, JSX, Tailwind, Bootstrap, Java Swing, Axios, NodeJS, ViteJS
+        } \\
+        \resumeListItem{\textbf{Developer Tools}:
+            GitHub, Git, GitKraken, Jira, Apache Maven, Linux, Google Cloud
+        } \\
+    } \resumeListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {McMaster University $|$ 4.0 GPA}{September 2021 -- April 2025}
+            {Candidate for Bachelor of Applied Science, Computer Science}{Hamilton, ON}
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------Achievements-----------
+\section{Achievements}
+    \resumeListStart\small{
+        \resumeDatedList{McMaster Faculty of Engineering \textbf{-- Engineering Award of Excellence Scholarship (\$3000)}}{June 2021} \\
+        \resumeDatedList{Bur Oak Secondary School \textbf{-- Award of Merit for Grade 12 Data Management}}{June 2021} \\
+        \resumeDatedList{Euclid Waterloo Math Contest \textbf{-- Certificate of Distinction (Top 25\%)}}{May 2021} \\
+    } \resumeListEnd
+
+%-------------------------------------------
+\end{document}
