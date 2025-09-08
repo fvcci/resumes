@@ -19,6 +19,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{amsmath}
+\usepackage{fontawesome5}
 \input{glyphtounicode}
 
 
@@ -134,9 +135,9 @@
 \begin{center}
 	\textbf{\Huge Felix Fong} \\ \vspace{5pt}
 	hi.there@fongfelix.com $|$
-	\href{https://felixfong}{\underline{fongfelix.com}} $|$
-	\href{https://linkedin.com/in/felixfong58}{\underline{linkedin.com/in/felixfong58}} $|$
-	\href{https://github.com/fvcci}{\underline{github.com/fvcci}} \\ \vspace{5pt}
+	\href{https://fongfelix.com}{\underline{fongfelix.com \faIcon{external-link-alt}}} $|$
+	\href{https://linkedin.com/in/felixfong58}{\underline{linkedin.com/in/felixfong58 \faIcon{external-link-alt}}} $|$
+	\href{https://github.com/fvcci}{\underline{github.com/fvcci \faIcon{external-link-alt}}} \\ \vspace{5pt}
 \end{center}
 
 %-----------EXPERIENCE-----------
@@ -144,54 +145,54 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{\href{https://www.intel.com/content/www/us/en/homepage.html}{\underline{Intel Corporation}}}{May 2023 -- August 2024}
-{Software Engineer - PEY Intern at Intel}{Toronto, ON}
+{Software Engineer - PEY Intern}{May 2023 -- August 2024}
+{Intel Corporation, Toronto, ON}{C++, Python, Perl, TCL}
 \resumeItemListStart
 % \resumeItem{Collaborated in a team of \textbf{6} on Quartus Static Timing Analysis (STA) and Synopsis Design Constraints (SDC) for the Quartus Field Programmable Gate Array (FPGA) Compiler primarily using C++.}
-\resumeItem{Collaborated in a cross-functional team in the Programmable Solutions Group (PSG) to develop Intel Quartus Prime Software using \textbf{C++, Python, Perl, and TCL}.}
-\resumeItem{Created a scalable software abstraction layer enabling cross subsystem API integration across 6 subsystems, providing the necessary framework to address a critical bug and support future extensibility.}
+% \resumeItem{Developed crucial features for Intel Quartus Prime Software in the Programmable Solutions Group (PSG).}
+\resumeItem{Created a scalable solution for \textbf{6 systems}, solving a critical bug and paving a path for \textbf{framework centralization}.}
 % say I created the analytics report with measurements across multiple diff such and such
-\resumeItem{Enhanced design validation by developing new netlist legality checks and analytics report.}
-% in future, say that I basically led the refactoring initiative and the unit testing infrastructure. Say they were all me.
+\resumeItem{Improved design validation by developing new netlist legality checks and analytics report.}
 \resumeItem{Drove an increase of \textbf{90\% in developer productivity} by pioneering a new internal framework that streamlined the implementation of key features across projects.}
-\resumeItem{Received praise for creating comprehensive project documentation and fostering an inclusive work environment.}
+\resumeItem{\textbf{Won third place} in an internal Competitive Programming competition for solving challenging problems.}
 % \resumeItem{Developed SDC unit testing infrastructure, achieving a \textbf{0\% to +80\%} code coverage improvement.}
 % \resumeItem{Facilitated in removing \textbf{3562} lines of technical debt, resolving several bugs and seeing approximately \textbf{100\%} productivity improvements in SDC development.}
 \resumeItemListEnd
 
 \resumeSubheading
-{\href{https://deltahacks.com/}{\underline{Deltahacks}}}{November 2022 -- Present}
-{Technical Executive}{Hamilton, ON}
+{Lead Full Stack Developer}{Feb 2025 -- Present}
+{Startviral, Remote}{React, TypeScript, Tailwind, Prisma ORM, TimescaleDB}
 \resumeItemListStart
-\resumeItem{Redesigned a legacy relational database schema to scale the backend to handle \textbf{10 000+ requests} throughout the year by leveraging \textbf{prisma ORM, Netlify functions stack, and TRPC}.}
+\resumeItem{Contributed to \textbf{\$2860+} worth of monthly revenue by building a full stack \href{https://pricing.startviral.de}{\underline{pricing page \faIcon{external-link-alt}}} from scratch.}
+\resumeItem{Engineered internal tooling to manage millions of data entries with \textbf{millisecond} response times.}
+\resumeItem{Optimized test runtime by \textbf{200x} by migrating to \textbf{Prisma ORM} after finding measureable performance gains.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Technical Executive}{November 2022 -- Present}
+{Deltahacks, Hamilton, ON}{React, Typescript, Tailwind, Netlify, tRPC}
+\resumeItemListStart
+\resumeItem{Enhanced developer experience by redesigning and implementing a customizable form database table.}
+\resumeItem{Built the schedule page and google wallet features used by \textbf{300+ participants} for streamlined event management.}
 % \resumeItem{Streamlined the hackathon evaluation process by creating a full stack comprehensive review program, enabling efficient grading of \textbf{1365} participants by leveraging Tailwind, Typescript, TRPC, shadcn/ui and prisma ORM.}
-\resumeItem{Led development of the Deltahacks IX landing page, attracting \textbf{1300+ applicants} by utilizing \textbf{React, Tailwind and shadcn/ui}.}
-\resumeItem{Developed the grading page, streamlining the evaluation process of \textbf{1300+ applicants}.}
-\resumeItem{Implemented the schedule page, driving event organization for \textbf{600+ attendees and team members}.}
+\resumeItem{Led development of the Deltahacks IX landing page, and grading page, overseeing \textbf{1300+ applicant} volume by leveraging React, shadcn/ui and Tailwind.}
 \resumeItemListEnd
 
 \resumeSubheading
-{\href{https://startviral.de/}{\underline{Startviral}}}{February -- Present}
-{Full Stack Developer}{Hamilton, ON}
-\resumeItemListStart
-\resumeItem{Creating internal tooling to manage \textbf{400+} customers by leveraging \textbf{Kysely, Hono}, and \textbf{Material-UI}.}
-\resumeItemListEnd
-
-\resumeSubheading
-{\href{https://www.mcmaster.ca/}{\underline{McMaster University}}}{Jan 2025 - Present}
-{Teaching Assistant}{Hamilton, ON}
+{Teaching Assistant}{Jan 2025 - June 2025}
+{McMaster University}{Hamilton, ON}
 \resumeItemListStart
 \resumeItem{Conducting live classroom instruction to \textbf{300+ students} on Automata and Computability.}
 \resumeItem{Redesigned lesson plans to enhance classroom engagement by \textbf{50\%}.}
 \resumeItemListEnd
 
 \resumeSubheading
-{\href{https://datacurve.ai/}{\underline{Datacurve}}}{December 2024 -- January 2025}
-{Project Code Quality Lead}{Hamilton, ON}
+{Project Code Quality Lead}{December 2024 -- January 2025}
+{Datacurve, Hamilton, ON}{C++, Python, Java, JavaScript}
 \resumeItemListStart
 \resumeItem{Spearheaded data governance and quality standards for \textbf{2000+ technical contributors}, impacting \textbf{multi-million dollar} LLM training operations leveraging expertise in C++, Python, Java, and JavaScript.}
 \resumeItem{Led investigations into review quality, revising 58 rejected data points and creating new reviewer guidelines.}
-\resumeItem{Ideated innovative ideas that improved review quality and productivity by 20\% across 8 reviewers.}
+\resumeItem{Ideated innovative tools that improved review quality and productivity by 20\% across 8 reviewers.}
 \resumeItemListEnd
 
 % \resumeSubheading
@@ -234,7 +235,7 @@
 {\href{https://github.com/SnoogySocks/Ani-List_Felix_Fong}{\textbf{\underline{Ani-List}}} $|$ \emph{Java, Java Swing, Unirest, Apache Maven}}{July 2021}
 \resumeItemListStart
 \resumeItem{Designed a social cataloging application for users to search, score, and save their anime preferences using the \textbf{Java Swing} Framework.}
-\resumeItem{Consceptualized a unique recommendation algorithm to interactively advertise up to \textbf{100 anime} concurrently.}
+\resumeItem{Consceptualized a novel recommendation algorithm to interactively advertise up to \textbf{100 anime} concurrently.}
 \resumeItem{Implemented a serializer and deserializer to save and load anime preferences.}
 \resumeItemListEnd
 
