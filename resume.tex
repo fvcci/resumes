@@ -42,10 +42,10 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.4in}
-\addtolength{\textwidth}{0.9in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.4in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -104,10 +104,10 @@
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
+ 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeListStart}{\begin{itemize}[itemindent=-0.33in,leftmargin=0.48in, label={}]}
 \newcommand{\resumeListEnd}{\end{itemize}}
@@ -134,15 +134,26 @@
 
 \begin{center}
 	\textbf{\Huge Felix Fong} \\ \vspace{5pt}
-	hi.there@fongfelix.com $|$
-	\href{https://fongfelix.com}{\underline{fongfelix.com \faIcon{external-link-alt}}} $|$
-	\href{https://linkedin.com/in/felixfong58}{\underline{linkedin.com/in/felixfong58 \faIcon{external-link-alt}}} $|$
-	\href{https://github.com/fvcci}{\underline{github.com/fvcci \faIcon{external-link-alt}}} \\ \vspace{5pt}
+	Candian Citizen $|$
+	\href{mailto:hi.there@fongfelix.com}{\underline{hi.there@fongfelix.com \faIcon{external-link-alt}}} $|$
+	\href{https://fvcci.dev/Ko1KvDF}{\underline{fongfelix.com \faIcon{external-link-alt}}} $|$
+	\href{https://fvcci.dev/V2UbEV7}{\underline{linkedin.com/felixfong58 \faIcon{external-link-alt}}} $|$
+	\href{https://fvcci.dev/lISS1VP}{\underline{github.com/fvcci \faIcon{external-link-alt}}} \\ \vspace{5pt}
 \end{center}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+
+\resumeSubheading
+{Lead Full Stack Developer}{February 2025 -- October 2025}
+{Startviral, Remote}{Typescript, ReactJS, React Router, TailwindCSS, PostgresSQL, EffectJS}
+\resumeItemListStart
+\resumeItem{Led a multi-system integration effort connecting payment, CRM, inbox, social, and workflow tools (Stripe, Pipedrive, Front, Instagram, Asana, Make) into a cohesive operating layer that managed hundreds of customers end-to-end}
+\resumeItem{Contributed to \textbf{\$3k+ worth of monthly revenue} by building a full stack \href{https://fvcci.dev/zbcpeOR}{\underline{pricing page \faIcon{external-link-alt}}} from scratch}
+\resumeItem{Engineered internal tooling to manage millions of data entries with \textbf{millisecond processing times}}
+\resumeItem{\textbf{Optimized test runtime by 200x} by migrating to Prisma ORM after finding measureable performance gains}
+\resumeItemListEnd
 
 \resumeSubheading
 {Software Engineer - PEY Intern}{May 2023 -- August 2024}
@@ -152,25 +163,16 @@
 % \resumeItem{Developed crucial features for Intel Quartus Prime Software in the Programmable Solutions Group (PSG).}
 \resumeItem{Created a scalable architecture for \textbf{6 systems}, solving a critical netlist propagation bug and paving a path for \textbf{framework centralization}}
 % say I created the analytics report with measurements across multiple diff such and such
-\resumeItem{Improved design validation by developing new netlist legality checks and analytics report}
-\resumeItem{Drove an increase of \textbf{90\% in developer productivity} by pioneering a new internal framework that streamlined the implementation of key features across projects}
+\resumeItem{Improved design validation by developing new netlist legality checks and an analytics report}
+\resumeItem{Drove an increase in developer productivity by pioneering a new internal framework that streamlined the implementation of key features across projects}
 \resumeItem{\textbf{Won third place} in an internal Competitive Programming competition for solving challenging problems}
 % \resumeItem{Developed SDC unit testing infrastructure, achieving a \textbf{0\% to +80\%} code coverage improvement.}
 % \resumeItem{Facilitated in removing \textbf{3562} lines of technical debt, resolving several bugs and seeing approximately \textbf{100\%} productivity improvements in SDC development.}
 \resumeItemListEnd
 
 \resumeSubheading
-{Lead Full Stack Developer}{February 2025 -- Present}
-{Startviral, Remote}{React, TypeScript, Tailwind CSS, Prisma ORM, TimescaleDB}
-\resumeItemListStart
-\resumeItem{Contributed to \textbf{\$2860+} worth of monthly revenue by building a full stack \href{https://pricing.startviral.de}{\underline{pricing page \faIcon{external-link-alt}}} from scratch}
-\resumeItem{Engineered internal tooling to manage millions of data entries with \textbf{millisecond} response times}
-\resumeItem{Optimized test runtime by \textbf{200x} by migrating to \textbf{Prisma ORM} after finding measureable performance gains}
-\resumeItemListEnd
-
-\resumeSubheading
 {Technical Executive}{November 2022 -- Present}
-{Deltahacks, Hamilton, ON}{React, Typescript, Tailwind CSS, Netlify, tRPC}
+{Deltahacks, Hamilton, ON}{Typescript, ReactJS, NextJS, TailwindCSS, PostgresSQL}
 \resumeItemListStart
 \resumeItem{Enhanced developer experience by redesigning and implementing a customizable form database table}
 \resumeItem{Built the schedule page and Google Wallet features used by \textbf{300+ participants} for streamlined event management}
@@ -179,36 +181,36 @@
 \resumeItemListEnd
 
 \resumeSubheading
+{Project Code Quality Lead}{December 2024 -- January 2025}
+{Datacurve, Hamilton, ON}{C++, Python, Java, JavaScript}
+\resumeItemListStart
+\resumeItem{Directed code reviews and quality standards for \textbf{2000+ technical contributors}, impacting \textbf{multi-million dollar} LLM training operations leveraging expertise in C++, Python, Java, and JavaScript}
+\resumeItem{Led investigations into review quality, revising 58 rejected data points and \textbf{documenting new reviewer guidelines}}
+\resumeItem{Ideated innovative tools that improved review quality and productivity}
+\resumeItemListEnd
+
+\resumeSubheading
+{Vice President}{August 2022 -- April 2023}
+{McMaster Competitive Programming Club, Hamilton, ON}{C++, Python}
+\resumeItemListStart
+\resumeItem{Taught advanced data structures and algorithms for the \textbf{International Collegiate Programming Contest} (ICPC)}
+\resumeItem{Hosted an Intel sponsored competition resulting in \textbf{35} participants}
+\resumeItemListEnd
+
+\resumeSubheading
 {Teaching Assistant}{January 2025 - June 2025}
-{McMaster University, Hamilton, ON}{Automata and Computability Theory}
+{McMaster University, Hamilton, ON}{Automata and Computability Theory, Latex}
 \resumeItemListStart
 \resumeItem{Conducting live classroom instruction to \textbf{300+ students} on Automata and Computability}
 \resumeItem{Redesigned lesson plans to enhance classroom engagement}
 \resumeItemListEnd
 
-\resumeSubheading
-{Project Code Quality Lead}{December 2024 -- January 2025}
-{Datacurve, Hamilton, ON}{C++, Python, Java, JavaScript}
-\resumeItemListStart
-\resumeItem{Directed data governance and quality standards for \textbf{2000+ technical contributors}, impacting \textbf{multi-million dollar} LLM training operations leveraging expertise in C++, Python, Java, and JavaScript}
-\resumeItem{Led investigations into review quality, revising 58 rejected data points and creating new reviewer guidelines}
-\resumeItem{Ideated innovative tools that improved review quality and productivity}
-\resumeItemListEnd
-
 % \resumeSubheading
-% {\href{https://mcp-team.com/}{\underline{McMaster Competitive Programming Club}}}{August 2022 -- April 2023}
-% {Vice President}{Hamilton, ON}
+% {Research Assistant}{May 2022 - August 2022}
+% {McMaster Department of Computing and Software, Hamilton, ON}{Haskell, Elm}
 % \resumeItemListStart
-% \resumeItem{Taught advanced data structures and algorithms in Python in anticipation for the \textbf{International Collegiate Programming Contest} (ICPC).}
-% \resumeItem{Hosted an Intel sponsored competition resulting in \textbf{35} participants.}
-% \resumeItemListEnd
-
-% \resumeSubheading
-% {\href{https://www.eng.mcmaster.ca/cas/}{\underline{McMaster Department of Computing and Software}}}{May 2022 - August 2022}
-% {Research Assistant}{Hamilton, ON}
-% \resumeItemListStart
-% \resumeItem{Facilitated with implementing an encryption algorithm in \textbf{Haskell}, resulting in mention in an \textbf{internal paper}.}
-% \resumeItem{Created a data analysis tool that fits \textbf{600} data points to probability distributions to identify key insights utilizing scipy and numpy libraries.}
+% \resumeItem{Facilitated with implementing an encryption algorithm in \textbf{Haskell}, resulting in mention in an \textbf{internal paper}}
+% \resumeItem{Created a data analysis tool that fits \textbf{600} data points to probability distributions to identify key insights utilizing scipy and numpy libraries}
 % \resumeItemListEnd
 
 % \resumeSubheading
@@ -226,10 +228,10 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{\underline{Price Matched}} $|$ \emph{Typescript, ReactJS, NextJs, Tailwind, Chrome, EffectJS}}{August 2025 -- Present}
+{\href{https://fvcci.dev/b7rLtki}{\underline{\textbf{Price Matched} \faIcon{external-link-alt}}} $|$ \emph{Typescript, ReactJS, NextJS, Chrome, EffectJS, TailwindCSS}}{August 2025 -- Present}
 \resumeItemListStart
-\resumeItem{Developing a chrome extension that finds better deals on products across several online stores in \textbf{0 clicks}}
-\resumeItem{Optimizing bottlenecks in the product comparison pipeline by profiling code, reducing similar product load times to \textbf{2 seconds} for a smoother user experience}
+\resumeItem{Developing a chrome extension that finds better deals on products across Amazon, Aliexpress, and Temu in \textbf{0 clicks}}
+\resumeItem{Optimizing bottlenecks in the product comparison pipeline by profiling code, reducing load times to \textbf{2 seconds} for a smoother user experience}
 \resumeItemListEnd
 
 % \resumeProjectHeading
@@ -261,13 +263,13 @@
 \section{Technical Skills}
 \resumeListStart\small{
 	\resumeListItem{\textbf{Languages}:
-		Python, C++, Typescript, Java, Javascript, HTML, CSS, Rust Java, C, Perl, Haskell, SQL
+		C++, Typescript, Python, Java, Javascript, HTML, CSS, \LaTeX, C, Perl, SQL
 	} \\
 	\resumeListItem{\textbf{Libraries and Frameworks}:
-		ReactJS, JSX, Tailwind CSS, NextJS, shadcn/ui, Prisma ORM, Axios, NodeJS, ViteJS, Bootstrap, Java Swing, MongoDB, Payload CMS
+		ReactJS, Tailwind CSS, NextJS, Prisma ORM, NodeJS, ViteJS, MongoDB, Payload CMS
 	} \\
 	\resumeListItem{\textbf{Developer Tools}:
-		GitHub, Git, Jira, Perforce, Linux, Apache Maven, Google Cloud
+		PostgreSQL, Docker, GitHub, Git, Jira, Perforce, Linux, Apache Maven
 	} \\
 } \resumeListEnd
 
